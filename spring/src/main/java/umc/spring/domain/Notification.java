@@ -29,5 +29,5 @@ public class Notification extends BaseEntity {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "member_id", nullable = false)
-    private Member member;  // 다대일 관계 설정
+    private Member member;
 }
